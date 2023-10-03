@@ -9,6 +9,6 @@ public class Subscriber implements Observer{
     }
     @Override
     public void HandleEvent(List<String> vacancy){
-        System.out.println("Dear" + name + "\nWe have new notification");
+        System.out.println("Dear " + name + "\nVacancies is changed "+vacancy+"\n=====================================\n");
     }
 }

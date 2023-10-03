@@ -12,5 +12,6 @@ public class JobSearch {
         jobSite.addObserver(Ers);
 
         jobSite.addVacancy("Python dev");
+        jobSite.addVacancy("aaa");
     }
 }
